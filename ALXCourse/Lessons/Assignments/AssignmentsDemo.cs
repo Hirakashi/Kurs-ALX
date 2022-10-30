@@ -1,5 +1,5 @@
 ﻿using ALXCourse.Lessons.Assignments.Classes;
-using ALXCourse.Lessons.Classes;
+using ALXCourse.Lessons.L1.Classes;
 
 namespace ALX_Course.Lessons.Assignments
 {

@@ -1,6 +1,7 @@
 ﻿
 
-namespace ALXCourse.Lessons.Classes
+namespace ALXCourse.Lessons.L1.Classes
+
 {
     public class NumOfPups
     {

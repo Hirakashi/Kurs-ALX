@@ -1,5 +1,5 @@
-﻿namespace ALX_Course.Lessons.L1
-{
+﻿namespace ALXCourse.Lessons.L1;
+using ALXCourse.Lessons.L1.Classes;
     public class L1Strings
     {
         public static void Test()
@@ -32,4 +32,4 @@
             Console.WriteLine(concat3);
         }
     }
-}
+

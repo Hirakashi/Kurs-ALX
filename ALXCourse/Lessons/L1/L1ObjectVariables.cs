@@ -1,4 +1,4 @@
-﻿using ALXCourse.Lessons.Classes;
+﻿using ALXCourse.Lessons.L1.Classes;
 
 namespace ALX_Course.Lessons.L1
 {

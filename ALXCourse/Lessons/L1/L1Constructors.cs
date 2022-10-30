@@ -1,4 +1,4 @@
-﻿using ALXCourse.Lessons.Classes;
+﻿using ALXCourse.Lessons.L1.Classes;
 using System.Reflection.Metadata;
 
 namespace ALX_Course.Lessons.L1

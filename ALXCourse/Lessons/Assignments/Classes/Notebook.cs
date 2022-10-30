@@ -1,8 +1,4 @@
 ﻿
-
-using ALXCourse.Lessons.Classes;
-using System.Runtime.CompilerServices;
-
 namespace ALXCourse.Lessons.Assignments.Classes
 {
     public class Notebook
@@ -30,7 +26,6 @@ namespace ALXCourse.Lessons.Assignments.Classes
         
         public static void TearPage()
         {
-            
             Console.WriteLine("Thrrr!");
         }
     }
