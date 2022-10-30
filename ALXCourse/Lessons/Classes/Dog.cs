@@ -20,11 +20,11 @@ namespace ALXCourse.Lessons.Classes
         }
         public int GetOlderAge()
         {
-            return Age + 1;
+            return Age++;
         }
         public void GrowOlder(int numberOfYears)
         {
-            Age = Age + numberOfYears;
+            Age += numberOfYears;
         }
         public NumOfPups Breed(int x)
         {
@@ -35,7 +35,7 @@ namespace ALXCourse.Lessons.Classes
             {
                ;
                 int y = x / 2;
-                int z = x / 2;
+                int z = y;
                 if (x % 2 != 0)
                 {
                     z++;

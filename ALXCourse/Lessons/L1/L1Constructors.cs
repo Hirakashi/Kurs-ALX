@@ -1,7 +1,7 @@
 ﻿using ALXCourse.Lessons.Classes;
 using System.Reflection.Metadata;
 
-namespace ALXCourse.Lessons
+namespace ALX_Course.Lessons.L1
 {
     public class L1Constructors
     {
@@ -12,7 +12,7 @@ namespace ALXCourse.Lessons
             spider.Species = "tarantula";
             spider.IsVenomous = false;
             spider.Sex = "female";
-            
+
             var blackWidow = new Spider("Black", "Black Widow", true, "Female");
         }
     }

@@ -1,7 +1,6 @@
-﻿
-using ALXCourse.Lessons.Classes;
+﻿using ALXCourse.Lessons.Classes;
 
-namespace ALXCourse.Lessons
+namespace ALX_Course.Lessons.L1
 {
     public class L1ObjectVariables
     {
@@ -16,7 +15,10 @@ namespace ALXCourse.Lessons
             dog.sex = 'f';
             dog.Present();
             NumOfPups pups = new NumOfPups();
-            pups = dog.Breed(8);       
+            pups = dog.Breed(8);
+            dog.GrowOlder(2);
+            dog.GetOlderAge();
+            dog.Present();
         }
         public static void Test2()
         {
@@ -33,6 +35,6 @@ namespace ALXCourse.Lessons
         }
 
     }
-  
+
 }
 

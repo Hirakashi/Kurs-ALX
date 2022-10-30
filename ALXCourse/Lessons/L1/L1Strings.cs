@@ -1,5 +1,4 @@
-﻿
-namespace ALXCourse.Lessons
+﻿namespace ALX_Course.Lessons.L1
 {
     public class L1Strings
     {
