@@ -1,4 +1,5 @@
-﻿namespace ALXCourse.Lessons.L1;
+﻿
+namespace ALXCourse.Lessons.L1;
     public class L1SimpleVariables
     {
         bool takLubNie = true;
@@ -7,4 +8,3 @@
         double liczbaZPrzecinkiemZOgromnymZakresem = 1.22f;
         decimal toSamoAleJeszczeWiekszyZasieg = 1.22m;
     }
-

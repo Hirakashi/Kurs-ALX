@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ALXCalculator
+﻿namespace ALXCalculator
 {
     public class Calculator
     {
@@ -11,10 +9,32 @@ namespace ALXCalculator
             var x = Double.Parse(Console.ReadLine());
             Console.Write("2nd number: ");
             var y = Double.Parse(Console.ReadLine());
-            Console.WriteLine($"{x} + {y} = {Add(x, y)}");
-            Console.WriteLine($"{x} - {y} = {Substract(x, y)}");
-            Console.WriteLine($"{x} * {y} = {Multiply(x, y)}");
-            Console.WriteLine($"{x} / {y} = {Divide(x, y)}");
+            Console.Write("Choose operation ( + ; - ; * ; / ): ");
+            var choice = char.Parse(Console.ReadLine());
+            ChooseOperation(choice, x, y);
+        }
+        private void ChooseOperation(char choice, double x, double y)
+        {
+
+            switch (choice)
+            {
+                case '+':
+                    Console.WriteLine($"{x} + {y} = {Add(x, y)}");
+                    break;
+                case '-':
+                    Console.WriteLine($"{x} - {y} = {Substract(x, y)}"); Substract(x, y);
+                    break;
+                case '*':
+                    Console.WriteLine($"{x} * {y} = {Multiply(x, y)}"); Multiply(x, y);
+                    break;
+                case '/':
+                    Console.WriteLine($"{x} / {y} = {Divide(x, y)}"); Divide(x, y);
+                    break;
+                default:
+                     Console.WriteLine("Invalid operation.");
+                    break;
+            }
+           
         }
         private double Add(double x, double y)
         {

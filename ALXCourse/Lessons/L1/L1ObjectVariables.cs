@@ -4,7 +4,7 @@ namespace ALX_Course.Lessons.L1
 {
     public class L1ObjectVariables
     {
-        public static void Test()
+        public static void Run()
         {
             Dog dog = new Dog();
             dog.Jump();
@@ -20,7 +20,7 @@ namespace ALX_Course.Lessons.L1
             dog.GetOlderAge();
             dog.Present();
         }
-        public static void Test2()
+        public static void Run2()
         {
             Dog dog2 = new Dog();
             dog2.Jump();

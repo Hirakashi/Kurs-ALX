@@ -1,5 +1,5 @@
 ﻿
-namespace ALXCourse.Lessons.Assignments.Classes
+namespace ALXCourse.Lessons.Assignments.M1.Classes
 {
     public class Notebook
     {

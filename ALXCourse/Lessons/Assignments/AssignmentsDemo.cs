@@ -1,7 +1,7 @@
-﻿using ALXCourse.Lessons.Assignments.Classes;
-using ALXCourse.Lessons.L1.Classes;
+﻿using ALXCourse.Lessons.Assignments.M1.Classes;
+using ALXCourse.Lessons.Assignments.M2;
 
-namespace ALX_Course.Lessons.Assignments
+namespace ALXCourse.Lessons.Assignments
 {
     public class AssignmentsDemo
     {

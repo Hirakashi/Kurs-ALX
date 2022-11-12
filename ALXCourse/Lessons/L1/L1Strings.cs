@@ -1,8 +1,9 @@
-﻿namespace ALXCourse.Lessons.L1;
-using ALXCourse.Lessons.L1.Classes;
+﻿using ALXCourse.Lessons.L1.Classes;
+namespace ALXCourse.Lessons.L1;
+
     public class L1Strings
     {
-        public static void Test()
+        public static void Run()
         {
             string name = "Milosz";
             Console.WriteLine(name);
@@ -19,7 +20,7 @@ using ALXCourse.Lessons.L1.Classes;
         {
             word = word = extension;
         }
-        public static void ConcetanationTest()
+        public static void ConcetanationTestRun()
         {
             string word1 = "Agata ma";
             string word2 = "króliki dwa";

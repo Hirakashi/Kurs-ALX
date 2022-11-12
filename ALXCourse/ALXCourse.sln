@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ALXCourse", "ALXCourse.csproj", "{D4BF7AAF-F734-4943-BD0C-EE8E9579132A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALXCalculator", "..\ALXCalculator\ALXCalculator.csproj", "{C58B79EF-F932-4EBB-BF4B-C82B5D0F899F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ALXCalculator", "..\ALXCalculator\ALXCalculator.csproj", "{C58B79EF-F932-4EBB-BF4B-C82B5D0F899F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALXCourseHomework", "..\ALXCourseHomework\ALXCourseHomework.csproj", "{5AEDB005-180E-4D17-9877-10D7B8FD3F82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C58B79EF-F932-4EBB-BF4B-C82B5D0F899F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C58B79EF-F932-4EBB-BF4B-C82B5D0F899F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C58B79EF-F932-4EBB-BF4B-C82B5D0F899F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEDB005-180E-4D17-9877-10D7B8FD3F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEDB005-180E-4D17-9877-10D7B8FD3F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEDB005-180E-4D17-9877-10D7B8FD3F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AEDB005-180E-4D17-9877-10D7B8FD3F82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
