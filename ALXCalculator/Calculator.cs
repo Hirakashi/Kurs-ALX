@@ -4,14 +4,21 @@
     {
         public void Run()
         {
+            List<Char> validOperations = new List<Char>();
             Console.WriteLine("Calculator running...");
-            Console.Write("1st number: ");
-            var x = Double.Parse(Console.ReadLine());
-            Console.Write("2nd number: ");
-            var y = Double.Parse(Console.ReadLine());
-            Console.Write("Choose operation ( + ; - ; * ; / ): ");
-            var choice = char.Parse(Console.ReadLine());
-            ChooseOperation(choice, x, y);
+            double x = 0;
+            double y = 0;
+            char choice = '+';
+            while (choice == '+' || choice ==  '-' || choice == '*' || choice == '/')
+            {
+                Console.Write("1st number: ");
+                x = Double.Parse(Console.ReadLine());
+                Console.Write("2nd number: ");
+                y = Double.Parse(Console.ReadLine());
+                Console.Write("Choose operation ( + ; - ; * ; / ): ");
+                choice = char.Parse(Console.ReadLine());
+                ChooseOperation(choice, x, y);
+            }
         }
         private void ChooseOperation(char choice, double x, double y)
         {
