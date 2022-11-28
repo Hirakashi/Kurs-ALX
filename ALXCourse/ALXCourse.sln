@@ -7,7 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ALXCourse", "ALXCourse.cspr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ALXCalculator", "..\ALXCalculator\ALXCalculator.csproj", "{C58B79EF-F932-4EBB-BF4B-C82B5D0F899F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALXCourseHomework", "..\ALXCourseHomework\ALXCourseHomework.csproj", "{5AEDB005-180E-4D17-9877-10D7B8FD3F82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ALXCourseHomework", "..\ALXCourseHomework\ALXCourseHomework.csproj", "{5AEDB005-180E-4D17-9877-10D7B8FD3F82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopApp", "..\Shop app\ShopApp.csproj", "{41146404-CA83-435B-AE8C-A52C168CAFFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FormApps", "FormApps", "{25CB0121-D203-4B28-9A4B-F8C092D7A3A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseFormApp", "..\CourseFormApp\CourseFormApp.csproj", "{216A4D95-9416-4256-B67F-D72E563E1856}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assignments", "Assignments", "{A36D8908-12C9-43BD-A137-401B1D937BE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovingButton", "..\MovingButton\MovingButton.csproj", "{B31677CD-8D48-4BFC-AE8C-A2CBEC46E9B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormCalculator", "..\FormCalculator\FormCalculator.csproj", "{46269CDC-2035-405D-9898-BB70536C6262}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +39,30 @@ Global
 		{5AEDB005-180E-4D17-9877-10D7B8FD3F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AEDB005-180E-4D17-9877-10D7B8FD3F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AEDB005-180E-4D17-9877-10D7B8FD3F82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41146404-CA83-435B-AE8C-A52C168CAFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41146404-CA83-435B-AE8C-A52C168CAFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41146404-CA83-435B-AE8C-A52C168CAFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41146404-CA83-435B-AE8C-A52C168CAFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{216A4D95-9416-4256-B67F-D72E563E1856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{216A4D95-9416-4256-B67F-D72E563E1856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{216A4D95-9416-4256-B67F-D72E563E1856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{216A4D95-9416-4256-B67F-D72E563E1856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31677CD-8D48-4BFC-AE8C-A2CBEC46E9B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31677CD-8D48-4BFC-AE8C-A2CBEC46E9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31677CD-8D48-4BFC-AE8C-A2CBEC46E9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31677CD-8D48-4BFC-AE8C-A2CBEC46E9B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46269CDC-2035-405D-9898-BB70536C6262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46269CDC-2035-405D-9898-BB70536C6262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46269CDC-2035-405D-9898-BB70536C6262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46269CDC-2035-405D-9898-BB70536C6262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{216A4D95-9416-4256-B67F-D72E563E1856} = {25CB0121-D203-4B28-9A4B-F8C092D7A3A1}
+		{B31677CD-8D48-4BFC-AE8C-A2CBEC46E9B0} = {A36D8908-12C9-43BD-A137-401B1D937BE4}
+		{46269CDC-2035-405D-9898-BB70536C6262} = {25CB0121-D203-4B28-9A4B-F8C092D7A3A1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {274871E1-3970-4BE9-A493-6C085D36919C}
