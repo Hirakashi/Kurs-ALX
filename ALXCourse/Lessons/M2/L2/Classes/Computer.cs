@@ -21,7 +21,7 @@ namespace ALXCourse.Lessons.M2.L2.Classes
         public string Name { get; set; }
 
         private int _processorFrequency;
-        public int ProcessorFrequency
+        public double? ProcessorFrequency
         {
             get
             {
@@ -30,7 +30,7 @@ namespace ALXCourse.Lessons.M2.L2.Classes
             }
             set
             {
-                if (value > 0 && value < 4)
+                if ( value > 0 && value < 4)
                 {
                     Console.WriteLine($"Setting computer's proccesor clock frequency as {value} [GHz].");
                     _processorFrequency = value;
@@ -41,5 +41,7 @@ namespace ALXCourse.Lessons.M2.L2.Classes
                 }
             }
         }
+
+        public int NumberOfCores { get; set; }
     }
 }

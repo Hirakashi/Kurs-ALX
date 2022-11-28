@@ -33,6 +33,7 @@ namespace ALXCourse.Lessons.M2.L1
                 Console.WriteLine($"{i}: {numbers[i]}");
             }
         }
+        
         public static void RunWhile()
         {
             char c = 'a';
@@ -44,6 +45,23 @@ namespace ALXCourse.Lessons.M2.L1
                 Console.WriteLine();
             }
         }
+
+        public static void RunDoWhile()
+        {
+            Console.Write("Write a character: ");
+            var c = Console.ReadKey().KeyChar;
+            Console.WriteLine();
+            do
+            {
+                Console.WriteLine("still in the loop!");
+                Console.Write("Write a character: ");
+                c = Console.ReadKey().KeyChar;
+                Console.WriteLine();
+            } while (c != 'n');
+
+            Console.WriteLine("Outside the loop.");
+        }
+
         public static void RunWhile1()
         { 
             int[] numbers = new int[12] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
@@ -54,7 +72,8 @@ namespace ALXCourse.Lessons.M2.L1
                 i++;
             }
         }
-        public static void WhileAdventure()
+        
+        public static void RunWhileInfinite()
         {
             while (true)
             {
