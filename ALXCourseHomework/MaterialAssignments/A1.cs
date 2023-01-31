@@ -4,7 +4,7 @@ using DayOfWeek = ALXCourseHomework.MaterialAssignments.Variables.Enums.DayOfWee
 
 namespace ALXCourseHomework.MaterialAssignments
 {
-    public class A1Variables
+    public class A1
     {
         public static void Run()
         {

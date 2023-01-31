@@ -26,6 +26,16 @@ namespace FormCalculator.Services
             
             for (int i = 0; i < expressionArray.Length; i++)
             {
+                if (expressionArray[i] == ')')
+                {
+                    i++;
+                }
+
+                if (expressionArray[i] == '(')
+                {
+                    numberBuilder.Append('-');
+                    i+=2;
+                }
                 if (Char.IsDigit(expressionArray[i]) || expressionArray[i] == ',')
                 {
                     numberBuilder.Append(expressionArray[i]);

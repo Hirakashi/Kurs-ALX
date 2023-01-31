@@ -33,7 +33,7 @@ namespace ALXCourse.Lessons.M2.L2.Classes
                 if ( value > 0 && value < 4)
                 {
                     Console.WriteLine($"Setting computer's proccesor clock frequency as {value} [GHz].");
-                    _processorFrequency = value;
+                    _processorFrequency = (int)value;
                 }
                 else
                 {

@@ -294,7 +294,6 @@
             // buttonSwap
             // 
             this.buttonSwap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonSwap.Enabled = false;
             this.buttonSwap.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.buttonSwap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSwap.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);

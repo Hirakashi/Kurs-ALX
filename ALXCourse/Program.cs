@@ -6,4 +6,5 @@ using ALXCourse.Lessons.M1;
 using ALXCourse.Lessons.M2;
 using ALXCourse.Assignments.M2.L2;
 
-BookStorageApp.Run();
+double liczba = -5;
+Console.WriteLine(liczba.ToString());

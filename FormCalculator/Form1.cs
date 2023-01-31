@@ -16,7 +16,7 @@ namespace FormCalculator
         private void OperationButtons_Click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
-            if (ExpressionService.CheckIfNumberIsLast(ExpressionBuilder.ToString()))
+            if (ExpressionService.CheckIfNumberIsLast(ExpressionBuilder.ToString()) || ExpressionBuilder.ToString().Last() == ')')
             {
                 ExpressionBuilder.Append(button.Text);
                 Display.Text = ExpressionBuilder.ToString();
@@ -27,8 +27,7 @@ namespace FormCalculator
             Button button = (Button)sender;
             ExpressionBuilder.Append(button.Text);
             Display.Text = ExpressionBuilder.ToString();
-            var result = ExpressionService.ProcessExpresion(ExpressionBuilder.ToString());
-            ResultDisplay.Text = result.ToString();
+            ResultDisplay.Text = ExpressionService.ProcessExpresion(ExpressionBuilder.ToString()).ToString();
         }
         private void Button0_Click(object sender, EventArgs e)
         {
@@ -43,7 +42,53 @@ namespace FormCalculator
         }
         private void buttonSwap_Click(object sender, EventArgs e)
         {
-            //todo
+            char[]? expressionArray = ExpressionBuilder.ToString().ToCharArray();
+            var numberBuilder = new StringBuilder();
+            int i=expressionArray.Length-1;
+            int trim = 0;
+            while (true)
+            {
+                trim++;
+                if (expressionArray[i] != '+' && expressionArray[i] != '-' && expressionArray[i] != 'x' && expressionArray[i] != '/')
+                {
+                    i--;
+                    if (i == -1)
+                    {
+                        for (int j = 0; j< expressionArray.Length;j++) 
+                        {
+                            numberBuilder.Append(expressionArray[j]);
+                        }
+                        ExpressionBuilder.Length -= trim;
+                        ExpressionBuilder.Append($"(-{double.Parse(numberBuilder.ToString())})");
+                        break;
+                    }
+                }
+                else
+                {
+                    if((i-1)=='(')
+                    {
+                        for (int j = i+1; j < (expressionArray.Length -1); j++)
+                        {
+                            numberBuilder.Append(expressionArray[j]);
+                        }
+                        ExpressionBuilder.Length -= trim;
+                        ExpressionBuilder.Append($"{numberBuilder.ToString()}");
+                        break;
+                    }
+                    else
+                    {
+                        for (int j=(i+1); j< expressionArray.Length; j++)
+                        {
+                            numberBuilder.Append(expressionArray[j]);
+                        }
+                        ExpressionBuilder.Length -= trim;
+                        ExpressionBuilder.Append($"(-{numberBuilder.ToString()})");
+                        break;
+                    }
+                }
+            }
+            Display.Text = ExpressionBuilder.ToString();
+            //ResultDisplay.Text = ExpressionService.ProcessExpresion(ExpressionBuilder.ToString()).ToString();
         }
         private void buttonClearAll_Click(object sender, EventArgs e)
         {

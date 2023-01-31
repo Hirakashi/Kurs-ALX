@@ -5,6 +5,7 @@ namespace ALXCourse.Lessons.M1.L1;
         bool takLubNie = true;
         int liczba = 7;
         float liczaZPrzecinkiem = 1.22f;
-        double liczbaZPrzecinkiemZOgromnymZakresem = 1.22f;
+        double liczbaZPrzecinkiemZOgromnymZakresem = -1.22f;
         decimal toSamoAleJeszczeWiekszyZasieg = 1.22m;
+
     }
